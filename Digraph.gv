@@ -1,0 +1,20 @@
+// Program Dependences Diagram
+digraph {
+	node [fillcolor=lightblue shape=box style=filled]
+	"Main.py
+" -> "Reader.py
+" [label=2]
+	"Main.py
+" -> "DrawGraph.py
+" [label=1]
+	"Main.py
+" -> "Graph_service.py
+" [label=1]
+	"Reader.py
+" -> "File.py
+" [label=2]
+	"Reader.py
+" -> "Function.py
+" [label=1]
+	fontsize=20
+}
