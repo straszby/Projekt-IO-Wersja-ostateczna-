@@ -11,6 +11,8 @@ def main():
     ROOT_DIR = os.path.abspath(os.curdir)
     dirs = find_file(ROOT_DIR)
     file_table = []
+    */ghjk/*
+**
 
     for file in dirs:
         x = parse_file(file)

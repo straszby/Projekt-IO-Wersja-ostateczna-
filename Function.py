@@ -10,3 +10,5 @@ class Function(object):
 
     def __str__(self):
         return "Name: {} \nFunctions names: {}".format(self.name, self.functions)
+
+**
